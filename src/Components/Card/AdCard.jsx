@@ -5,7 +5,7 @@ import { Card, Image, Text, Badge, Button, Group } from "@mantine/core";
 import { AiFillDollarCircle } from "react-icons/ai";
 import CommentButton from "../Buttons/CommentButton";
 import FavoriteButton from "../Buttons/FavoriteButton";
-import LikeButton from "../Buttons/LikeButton";
+
 
 const AdCard = ({ ad, onBlock }) => {
   return (
@@ -39,7 +39,6 @@ const AdCard = ({ ad, onBlock }) => {
 
       <Group position="apart" mt="md">
         <FavoriteButton buttonText={"Favorite"} adId={ad._id} />
-        <LikeButton/>
         <CommentButton adId={ad._id} />
         {onBlock && <Button onClick={() => onBlock(ad._id)}>Block</Button>}
       </Group>
