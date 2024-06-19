@@ -9,7 +9,7 @@ root.render(
   <>
     <ColorSchemeScript defaultColorScheme="auto" />
     <MantineProvider
-      defaultColorScheme="light"
+      defaultColorScheme="dark"
       withGlobalStyles
       withNormalizeCSS
     >

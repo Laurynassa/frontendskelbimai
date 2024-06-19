@@ -1,4 +1,3 @@
-// CommentsButton.jsx
 import React, { useState, useEffect } from "react";
 import { Button } from "@mantine/core";
 import { AiOutlineComment } from "react-icons/ai";
@@ -31,7 +30,7 @@ export default function CommentButton({ adId }) {
   };
 
   const handleNewComment = () => {
-    fetchCommentsCount(); // Re-fetch the comments count when new comment is added by the user
+    fetchCommentsCount(); 
   };
 
   return (
