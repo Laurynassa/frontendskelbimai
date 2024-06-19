@@ -2,10 +2,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 16px;
+  gap: 20px;
   margin-top: 2em;
 }
 
 .divider {
-  box-shadow: 0 0 10px rgb(104, 189, 218);
+  box-shadow: 0 0 20px rgb(104, 189, 218);
 }
