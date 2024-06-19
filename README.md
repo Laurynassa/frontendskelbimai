@@ -39,8 +39,8 @@ The Skelbimai Web App is a comprehensive platform designed to facilitate the pos
 
 1. Clone the repository:
 
-- git clone https://github.com/Skelbimai-2grupe/frontend.git
-- cd frontend
+- git clone https://github.com/Laurynassa/frontendskelbimai.git
+- cd frontendskelbimai
 
 1. Install dependencies:
 
@@ -48,7 +48,7 @@ The Skelbimai Web App is a comprehensive platform designed to facilitate the pos
 
 1. Run the application:
 
-- npm start
+- npm run start
 
 # LOGINS FOR TESTING
 
